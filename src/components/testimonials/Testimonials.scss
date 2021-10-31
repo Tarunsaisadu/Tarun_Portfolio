@@ -1,0 +1,269 @@
+@import "../../global.scss";
+.testimonials {
+  background-color: #03045e;
+  margin: 0;
+  padding: 0;
+}
+
+.maintitle {
+  font-family: "Julius Sans One", sans-serif;
+  font-size: 25px;
+  margin-top: 10px;
+  margin-left: 45%;
+  margin-bottom: 0%;
+  padding: 15px 40px;
+  border: 1px solid #00b4d8;
+  color: #00b4d8;
+  width: 150px;
+  @include mobile {
+    margin-left: 130px;
+  }
+}
+.skillwrapper {
+  display: flex;
+  margin-top: -20px;
+  @include mobile {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.skillslist {
+  width: 550px;
+  height: 515px;
+  margin: 60px 30px;
+
+  padding: 18px 20px;
+
+  color: #00b4d8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  -webkit-box-shadow: -3px 2px 15px 8px rgba(202, 240, 248, 0.9);
+  box-shadow: -3px 2px 15px 8px rgba(202, 240, 248, 0.9);
+  @include mobile {
+    width: fit-content;
+  }
+}
+.skillleft {
+  flex: auto;
+}
+.skillright {
+  flex: auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.skilltitle {
+  margin: 5px 5px;
+  padding: 10px 10px;
+  font-size: 20px;
+}
+.skillsubtitle {
+  font-size: 25px;
+  margin: 5px 15px;
+  padding: 4px 4px;
+  text-align: center;
+  color: white;
+}
+
+.skillslist li {
+  margin: 10px 10px;
+  margin-top: -2px;
+  padding: 0px 15px;
+  font-size: 20px;
+
+  .skillimage {
+    width: 30px;
+
+    margin-right: 6px;
+  }
+}
+.leftsubtitle {
+  color: #00b4d8;
+  font-family: "Julius Sans One", sans-serif;
+  margin-top: 60px;
+  .subtitleimage {
+    margin-left: 30px;
+    margin-right: 20px;
+    width: 40px;
+  }
+}
+
+.bar {
+  background-color: #caf0f8;
+  display: block;
+  height: 7px;
+  margin-left: 10px;
+  border: 1px solid #0077b6;
+  border-radius: 3px;
+  overflow: hidden;
+  box-shadow: 0 0 10px #e5e9eeb3;
+}
+.bar span {
+  height: 3px;
+  float: left;
+  background: #5900e7;
+}
+.html {
+  width: 90%;
+  animation: html 2s;
+}
+.css {
+  width: 65%;
+  animation: css 2s;
+}
+.js {
+  width: 65%;
+  animation: js 2s;
+}
+.bs {
+  width: 85%;
+  animation: bs 2s;
+}
+.react {
+  width: 65%;
+  animation: react 2s;
+}
+.redux {
+  width: 65%;
+  animation: react 2s;
+}
+
+@keyframes html {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 90%;
+  }
+}
+
+@keyframes css {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 90%;
+  }
+}
+@keyframes js {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 90%;
+  }
+}
+@keyframes bs {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 90%;
+  }
+}
+@keyframes react {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 90%;
+  }
+}
+@keyframes redux {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 90%;
+  }
+}
+
+.tools {
+  display: flex;
+  flex-direction: row-reverse;
+  max-width: 380px;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 8px;
+  margin-left: 330px;
+  padding: 10px 6px;
+  color: white;
+  border-radius: 10px;
+  -webkit-box-shadow: -3px 2px 15px 8px rgba(202, 240, 248, 0.9);
+  box-shadow: -3px 2px 15px 8px rgba(202, 240, 248, 0.9);
+  @include mobile {
+    margin-left: 150px;
+  }
+}
+.tools li {
+  margin: 10px 10px;
+  margin-right: 5px;
+  padding: 10px 20px;
+  justify-content: center;
+
+  .toolimages {
+    width: 50px;
+    margin-right: 10px;
+  }
+}
+
+.design {
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 10px;
+  margin-left: 420px;
+  padding: 10px 10px;
+  color: white;
+  border-radius: 10px;
+  -webkit-box-shadow: -3px 2px 15px 8px rgba(202, 240, 248, 0.9);
+  box-shadow: -3px 2px 15px 8px rgba(202, 240, 248, 0.9);
+  @include mobile {
+    margin-left: 240px;
+    margin-right: 200px;
+  }
+}
+.design li {
+  margin-top: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+  padding: 10px 10px;
+
+  .toolimages {
+    width: 50px;
+  }
+}
+.caption {
+  display: flex;
+  margin-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  justify-content: center;
+  float: bottom;
+}
+.subtitleimg {
+  width: 40px;
+  padding-right: 10px;
+}
+.toolssubtitle {
+  margin-top: 30px;
+  margin-left: 430px;
+  padding: 10px 10px;
+  color: #00b4d8;
+  @include mobile {
+    margin-left: 260px;
+  }
+}
+.designsubtitle {
+  margin-top: 30px;
+  margin-left: 430px;
+  padding: 10px 10px;
+  color: #00b4d8;
+  @include mobile {
+    margin-left: 260px;
+  }
+}
