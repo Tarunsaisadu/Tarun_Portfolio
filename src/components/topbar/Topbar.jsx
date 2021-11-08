@@ -16,7 +16,13 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
               colors="primary:#90e0ef,secondary:#90e0ef"
               style={{ width: "35px", height: "35px" }}
             ></lord-icon>
-            <span> tarunsai.rct@gmail.com</span>
+            <a
+              style={{ textDecoration: "none", color: "aqua" }}
+              href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSGKnSkdpCTRNLlCXgNMtZJTBmvwLWGXPpGlpvTCRwSxgrZGQGzmlJNrbgmSKqfCmXRKzKlb"
+              target="_blank"
+            >
+              <span> tarunsai.rct@gmail.com</span>
+            </a>
           </div>
         </div>
 

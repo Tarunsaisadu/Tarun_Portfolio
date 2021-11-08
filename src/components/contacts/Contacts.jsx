@@ -20,7 +20,17 @@ export default function Contacts() {
         <form onSubmit={handleSubmit}>
           <input type="text" placeholder="Email" />
           <textarea placeholder="Message"></textarea>
-          <button type="submit">Send</button>
+
+          <button type="submit">
+            <a
+              style={{ textDecoration: "none", color: "black" }}
+              href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSGKnSkdpCTRNLlCXgNMtZJTBmvwLWGXPpGlpvTCRwSxgrZGQGzmlJNrbgmSKqfCmXRKzKlb"
+              target="_blank"
+            >
+              Send
+            </a>
+          </button>
+
           {message && <span>Thanks for the message, will get back soon </span>}
         </form>
       </div>
