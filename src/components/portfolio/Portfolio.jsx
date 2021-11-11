@@ -55,7 +55,7 @@ export default function Portfolio() {
         <div class="projectcontainer">
           <img
             className="projectimg"
-            src="https://lh3.googleusercontent.com/I1RbMg3jgFlTkuUkq68VbmyZuWtlsmx1REHxYCGYsu_G_hNNdl0_I4IqIsGgDwqWcHg"
+            src="https://play-lh.googleusercontent.com/bfiOA6kQF4S_ke_LWJvQukXh0twjc8aZLmwzwt5LrV5N4acR8G-Ad0w-DXm7XnLqwAk"
             alt=""
           />
           <p class="cardtitle">Galaxy Fighter</p>
@@ -85,13 +85,16 @@ export default function Portfolio() {
         <div class="projectcontainer">
           <img
             className="projectimg"
-            src="https://image.freepik.com/free-vector/coming-soon-construction-illustration-design_1017-31446.jpg"
+            src="https://images.unsplash.com/photo-1611944212129-29977ae1398c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"
             alt=""
           />
-          <p class="cardtitle">coming soon</p>
+          <p class="cardtitle">Linked-in Clone</p>
           <div class="overlay"></div>
           <div class="demobutton">
-            <a href="#"> Demo </a>
+            <a href="https://linkedin-clone-tarun.netlify.app/" target="_blank">
+              {" "}
+              Demo{" "}
+            </a>
           </div>
         </div>
       </div>
