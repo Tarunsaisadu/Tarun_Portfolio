@@ -48,12 +48,12 @@ export default function Intro() {
           <ul className="iconslist">
             <Fade left cascade>
               <li>
-                <a href="https://www.linkedin.com/in/sadu/">
+                <a href="https://www.linkedin.com/in/sadu/" target="_blank">
                   <img src="https://img.icons8.com/nolan/48/linkedin.png" />
                 </a>
               </li>
               <li>
-                <a href="https://github.com/Tarunsaisadu">
+                <a href="https://github.com/Tarunsaisadu" target="_blank">
                   <img src="https://img.icons8.com/nolan/48/github.png" />
                 </a>
               </li>
