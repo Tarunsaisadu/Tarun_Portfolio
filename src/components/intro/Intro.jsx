@@ -1,6 +1,8 @@
 import "./intro.scss";
 import { init } from "ityped";
 import { useEffect, useRef } from "react";
+import Fade from "react-reveal/Fade";
+import HeadShake from "react-reveal/HeadShake";
 
 export default function Intro() {
   const textRef = useRef();
@@ -23,33 +25,39 @@ export default function Intro() {
       </div>
       <div className="right">
         <div className="wrapper">
-          <h2>
-            Hello there! 👋 I'm {""}
-            <span className="myname">
-              <strong style={{ color: "#90e0ef" }}>TARUN SADU</strong>
-            </span>
-          </h2>
-
+          <Fade left cascade>
+            <h2>
+              Hello there! 👋 I'm {""}
+              <span className="myname">
+                <strong style={{ color: "#90e0ef" }}>TARUN SADU</strong>
+              </span>
+            </h2>
+          </Fade>
           <h3>
             F<span ref={textRef}></span>
           </h3>
-          <p>
-            I enjoy building interactive websites. If you are an employer
-            looking to hire, you can get in touch with me.
-          </p>
+          <Fade left cascade>
+            <p>
+              I enjoy building interactive websites. If you are an employer
+              looking to hire, you can get in touch with me.
+            </p>
+          </Fade>
         </div>
+
         <div className="socialiconcontainer">
           <ul className="iconslist">
-            <li>
-              <a href="https://www.linkedin.com/in/sadu/">
-                <img src="https://img.icons8.com/nolan/48/linkedin.png" />
-              </a>
-            </li>
-            <li>
-              <a href="https://github.com/Tarunsaisadu">
-                <img src="https://img.icons8.com/nolan/48/github.png" />
-              </a>
-            </li>
+            <Fade left cascade>
+              <li>
+                <a href="https://www.linkedin.com/in/sadu/">
+                  <img src="https://img.icons8.com/nolan/48/linkedin.png" />
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/Tarunsaisadu">
+                  <img src="https://img.icons8.com/nolan/48/github.png" />
+                </a>
+              </li>
+            </Fade>
             <a className="firstatt" href="assets/Tarun_CV.pdf" target="_blank">
               <button className="resumebutton">Resume</button>
             </a>
