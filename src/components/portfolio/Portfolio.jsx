@@ -48,7 +48,7 @@ export default function Portfolio() {
             <p class="cardtitle">Weather App</p>
             <div class="overlay"></div>
             <div class="demobutton">
-              <a href="https://vayugna-weather-app.netlify.app" target="_blank">
+              <a href="https://vayugna-weatherapp-js.netlify.app/" target="_blank">
                 {" "}
                 Demo{" "}
               </a>
