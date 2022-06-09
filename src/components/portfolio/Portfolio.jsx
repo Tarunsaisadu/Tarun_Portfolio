@@ -32,7 +32,10 @@ export default function Portfolio() {
             <p class="cardtitle">Netflix Clone</p>
             <div class="overlay"></div>
             <div class="demobutton">
-              <a href="https://netflix-clone-tarun.netlify.app" target="_blank">
+              <a
+                href="https://netflix-clone-tarunsadu.netlify.app"
+                target="_blank"
+              >
                 {" "}
                 Demo{" "}
               </a>
@@ -48,7 +51,10 @@ export default function Portfolio() {
             <p class="cardtitle">Weather App</p>
             <div class="overlay"></div>
             <div class="demobutton">
-              <a href="https://vayugna-weatherapp-js.netlify.app/" target="_blank">
+              <a
+                href="https://vayugna-weatherapp-js.netlify.app/"
+                target="_blank"
+              >
                 {" "}
                 Demo{" "}
               </a>
